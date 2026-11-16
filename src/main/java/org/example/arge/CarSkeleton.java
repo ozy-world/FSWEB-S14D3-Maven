@@ -16,4 +16,12 @@ public class CarSkeleton {
     public String getDescription() {
         return description;
     }
+
+    public void startEngine() {
+        System.out.println("CarSkeleton -> startEngine()");
+    }
+
+    public void drive() {
+        System.out.println("CarSkeleton -> drive()");
+    }
 }
